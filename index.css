@@ -1,9 +1,0 @@
-* {
-  width: auto;
-  height: auto;
-  box-sizing: border-box;
-}
-
-body {
-  background-image: url(./src/asset/food.jpg);
-}
