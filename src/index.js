@@ -1,7 +1,10 @@
 import Img from './asset/pizza.jpg'
 import './style.css';
 
-const body = document.querySelector('body').style.background = 'grey';
+const body = document.querySelector('body');
+console.log(body);
+const para = document.createElement('p');
+para.textContent = 'This is just a test';
 
 const nav = document.createElement('div');
 nav.innerHTML = `<div class= "navbar" style= "background: red;">
@@ -14,6 +17,4 @@ nav.innerHTML = `<div class= "navbar" style= "background: red;">
   </nav>
 </div>`;
 
-body.append(nav);
-
-
+body.append(nav, para);
